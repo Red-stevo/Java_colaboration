@@ -9,11 +9,11 @@ class Daro
 		Scanner input = new Scanner(System.in);
 
 		//Ask the user to enter their weigth.
-		System.out.print("Enter your weight: ");
+		System.out.print("Enter your weight in kilograms: ");
 		weight = input.nextDouble();
 
 		//Ask the user to enter the height
-		System.out.print("Enter your height:");
+		System.out.print("Enter your height in metres:");
 		height = input.nextDouble();
 
 		//claculating the bmi
