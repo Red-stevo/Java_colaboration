@@ -2,7 +2,7 @@
 import java.util.Scanner;
 class Daro
 {
-	public static void main(String[] args)
+	static void BMI()
 	{
 		//variables
 		double weight, height, bmi;
@@ -22,5 +22,8 @@ class Daro
 		//displaying the results to the user.
 		System.out.println("Your BMI is: "+bmi);
 		input.close();
+	}
+	public static void main(String[] args){
+		BMI();
 	}
 }
